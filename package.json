@@ -1,16 +1,15 @@
 {
   "name": "ci-cd-practice",
   "version": "1.0.0",
-  "description": "Meu projeto de exemplo",
-  "main": "app.js",
+  "description": "Projeto de exemplo para CI/CD",
+  "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Seu Nome",
   "license": "ISC",
-  "dependencies": {"scripts": {
-    "test": "jest"
-}
-    "jest": "^29.0.0"
-  } 
+  "dependencies": {},
+  "devDependencies": {"scripts": {
+  "test": "jest"
+}}
 }
