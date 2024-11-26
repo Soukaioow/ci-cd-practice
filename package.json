@@ -1,13 +1,16 @@
 {
-  "name": "meu-projeto",
+  "name": "ci-cd-practice",
   "version": "1.0.0",
   "description": "Meu projeto de exemplo",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "author": "Seu Nome",
   "license": "ISC",
   "dependencies": {"scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
+}
+    "jest": "^29.0.0"
+  } 
 }
